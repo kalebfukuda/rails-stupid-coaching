@@ -1,0 +1,13 @@
+  <h1>Answer</h1>
+
+<div class="form-group col-4">
+  <div class="bg-info p-2 mb-2">
+    You: <%= params[:answer]  %>
+  </div>
+
+  <div class="bg-info-subtle p-2">
+    Boss: <%= @answer %>
+  </div>
+  <%= link_to 'Question', ask_path, class: "btn btn-primary mt-2 w-100" %>
+
+</div>
